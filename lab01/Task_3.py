@@ -16,7 +16,6 @@ for i in range(N):
     if (int(array[i])%2==0):
         sumPairedElem = sumPairedElem + array[i]
         countPairedElem = countPairedElem + 1
-        print(str(array[i]))
 print("Створений масив: \n"+ str(array))
 print("Найменшим елементом у масиві є число " + str(min(array)))
 print("Середнє арифметичне парних елементів масиву: "+ str(sumPairedElem/countPairedElem))
