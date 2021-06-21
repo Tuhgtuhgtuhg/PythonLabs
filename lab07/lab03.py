@@ -107,7 +107,6 @@ def sort_student(name_file="kb_20_marks_table.csv", char_split=";", encoding_fil
                     
             
 def write_in_table_end(what_write, name_file="sort_kb_20_marks_table.csv", char_split=";", encoding_file="utf-8"):
-    
      if(seach_file(name_file)):
          table_in_list = read_table_file(name_file,char_split,encoding_file)
          what_write = str(what_write).replace('\n', '')
@@ -125,5 +124,5 @@ def write_in_table_end(what_write, name_file="sort_kb_20_marks_table.csv", char_
 
 if __name__ == "__main__":
     
-    print(seach_in_table(" "))
+    print(seach_in_table("lol"))
     
